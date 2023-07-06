@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --config scripts/vite.config.js",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "rimraf": "^5.0.1",
     "vite": "^4.3.9"
   },
   "dependencies": {
